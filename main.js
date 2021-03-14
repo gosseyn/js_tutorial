@@ -9,7 +9,7 @@ function palindromeTester(event) {
     if(phrase.palindrome()){
 	palindromeResult.innerHTML = `<strong>"${phrase.content}"</strong> is a palindrome.`;
     } else {
-        palindromeResult.innerHTML = `"<strong>"${phrase.content}"</strong> is not a palindrome.`;
+        palindromeResult.innerHTML = `<strong>"${phrase.content}"</strong> is not a palindrome.`;
     }
 }
 document.addEventListener("DOMContentLoaded",function(){
